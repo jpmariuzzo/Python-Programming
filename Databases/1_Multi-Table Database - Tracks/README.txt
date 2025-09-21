@@ -41,6 +41,7 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
     ON Track.genre_id = Genre.ID and Track.album_id = Album.id
         AND Album.artist_id = Artist.id
     ORDER BY Artist.name LIMIT 3
+
 The expected result of the modified query on your database is: (shown here as a simple HTML table with titles)
 Track	Artist	Album	Genre
 Chase the Ace	AC/DC	Who Made Who	Rock
