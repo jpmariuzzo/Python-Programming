@@ -1,6 +1,6 @@
 Simple Python Search Spider, Page Ranker, and Visualizer
 
-NOTE: None of the code in this repository was developed by the repository owner.
+/!\ NOTE: None of the code in this repository was developed by the repository owner.
 This material is for study purposes only.
 
 This is a set of programs that emulate some of the functions of a 
