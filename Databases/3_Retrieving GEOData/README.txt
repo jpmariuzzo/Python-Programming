@@ -17,3 +17,5 @@ useful. If you do not take grading seriously, the instructors may delete your re
 Inserted data:
 Lamen ASKA Sao Paulo, line 5
 Parque Vitoria Regia Bauru, line 111
+
+OBS.: Use MS Edge to open the map.
