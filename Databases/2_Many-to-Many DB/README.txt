@@ -6,7 +6,7 @@ You can base your solution on this code: http://www.py4e.com/code3/roster/roster
 need to modify the program to store the role column in the Member table to complete the assignment.
 
 Each student gets their own file for the assignment. Download this file:
-Dowload your roster.json data
+Download your roster.json data
 
 And save it as roster_data.json. Move the downloaded file into the same folder as your roster.py program.
 Once you have made the necessary changes to the program and it has been run successfully reading the above JSON data,
@@ -27,3 +27,5 @@ SELECT 'XYZZY' || hex(User.name || Course.title || Member.role ) AS X FROM
     ON User.id = Member.user_id AND Member.course_id = Course.id
     ORDER BY X LIMIT 1;
 You should get one row with a string that looks like XYZZY53656C696E613333.
+
+ANSWER = XYZZY41616D696E6168736933303130
