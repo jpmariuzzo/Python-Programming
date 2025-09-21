@@ -28,7 +28,7 @@ CREATE TABLE Track (
 );
 ''')
 
-handle = open('tracks.csv')
+handle = open('../tracks.csv')
 
 # Another One Bites The Dust,Queen,Greatest Hits,55,100,217103
 #   0                          1      2           3  4   5
