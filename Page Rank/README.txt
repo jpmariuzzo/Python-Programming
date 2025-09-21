@@ -1,5 +1,8 @@
 Simple Python Search Spider, Page Ranker, and Visualizer
 
+NOTE: None of the code in this repository was developed by the repository owner.
+This material is for study purposes only.
+
 This is a set of programs that emulate some of the functions of a 
 search engine. They store their data in a SQLITE3 database named
 'spider.sqlite'. This file can be removed at any time to restart the
@@ -158,4 +161,11 @@ http://mbostock.github.com/d3/
 
 If you rerun the other utilities and then re-run spjson.py - you merely
 have to press refresh in the browser to get the new data from spider.js.
+
+SUMMARY OF THE PROCESS
+1. Execute spider.py - to collect pages, links and create the spider_db;
+2. Execute spdump.py - to check the new DB content;
+3. Execute spreset.py - to restart the rank of pages to 1.0;
+4. Execute sprank.py - to calculate the importance (rank) of pages;
+5. Execute spjson.py - to read the spider_db and create the spider.json;
 
