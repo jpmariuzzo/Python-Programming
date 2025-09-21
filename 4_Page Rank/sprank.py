@@ -43,7 +43,7 @@ if len(prev_ranks) < 1 :
     print("Nothing to page rank. Check data.")
     quit()
 
-# Lets do Page Rank in memory so it is really fast
+# Lets do 4_Page Rank in memory so it is really fast
 for i in range(many):
     # print prev_ranks.items()[:5]
     next_ranks = dict();
