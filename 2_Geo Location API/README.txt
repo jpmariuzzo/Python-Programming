@@ -31,6 +31,7 @@ Please run your program to find the plus_code for this location:
 IT College of Estonia
 
 ANSWER: Plus code 9FFW82PW+VV
+
 Make sure to enter the name and case exactly as above and enter the plus_code and your Python code below. Hint: The first
 five characters of the plus_code are "9FFW8 ..."
 Make sure to retreive the data from the URL specified above and not the normal Google API. Your program should work with
